@@ -1,0 +1,32 @@
+# --- Terraform state files ---
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate
+*.tfstate.*
+
+# --- Terraform lock file ---
+.terraform.lock.hcl
+
+# --- Terraform crash logs ---
+crash.log
+crash.*.log
+
+# --- Terraform working directories ---
+.terraform/
+.terraform.d/
+
+
+# --- Ansible ---
+*.retry
+
+# --- SSH Keys ---
+*.pem
+*.key
+*.pub
+.ssh/
+
+# Terraform provider directories
+.terraform/providers/
+.terraform/providers/registry.terraform.io/
+
+
